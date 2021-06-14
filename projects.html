@@ -10,26 +10,14 @@
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
 
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' /> -->
     <link rel="stylesheet" href="/stylesheets/app.css">
 
 
 </head>
 
 <body class="d-flex flex-column vh-100">
-    <header class="mb-auto">
-        <div>
-            <h3 class="float-md-left mb-0">ZIHAN WANG</h3>
-            <nav class="nav nav-masthead justify-content-center float-md-right">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                <a class="nav-link" href="about.html">ABOUT</a>
-                <a class="nav-link" href="projects.html">PROJECTS</a>
-                <a class="nav-link" href="resume.html">RESUME</a>
-                <!-- <a class="nav-link" href="/logout">Logout</a> -->
-                
-            </nav>
-        </div>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Zihan Wang</a>
@@ -39,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                     <a class="nav-link" href="about.html">ABOUT</a>
                     <a class="nav-link" href="projects.html">PROJECTS</a>
                     <a class="nav-link" href="resume.html">RESUME</a>
@@ -56,7 +44,28 @@
         </div>
     </nav>
     <main class="container mt-5">
-        <p>My name is Zihan Wang.</p>
+        <div class="card mb-3" >
+            <div class="row">
+                <div class="col-md-4">
+                    <%if(campground.images.length) {%>
+                    <img class="img-fluid" alt="" src="<%=campground.images[0].url%>">
+                    <% }else {%>
+                    <img class="img-fluid" alt=""
+                        src="https://res.cloudinary.com/douqbebwk/image/upload/v1600103881/YelpCamp/lz8jjv2gyynjil7lswf4.png">
+                    <% } %>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Title </h5>
+                        <p class="card-text">Description</p>
+                        <p class="card-text">
+                            <small class="text-muted">Locations</small>
+                        </p>
+                        <a class="btn btn-primary" href="/campgrounds/<%=campground._id%>">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer bg-dark py-3 mt-auto">
         <div class="container">
