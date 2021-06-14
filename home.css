@@ -11,7 +11,14 @@ body {
   max-width: 60vw;
 }
 
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+}
+
 .nav-link {
+    
     padding: 0.25rem 0;
     font-weight: 700;
     color: rgba(255,255,255,0.5);
