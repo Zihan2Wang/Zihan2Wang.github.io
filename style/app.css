@@ -1,0 +1,74 @@
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.nav-link {
+    
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color:white;
+
+}
+
+
+/* .services {
+    position: relative;
+    padding: 1rem 0;
+} */
+.about_content {
+padding: 1rem;
+margin-top: 0;
+}
+.about_content p {
+font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+.about_content p {
+    font-size: 1rem;
+}
+}
+@media (min-width: 992px) {
+.about_content {
+    margin-top: 5rem;
+}
+}
+.about_content .icon {
+font-size: 1.5rem;
+color: #9926f0;
+}
+@media (min-width: 992px) {
+.about_content .icon {
+    font-size: 2.5rem;
+}
+}
+.about_pic {
+max-width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
