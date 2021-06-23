@@ -37,9 +37,9 @@
     <main class="container mt-5">
         <div class="card mb-3" >
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex justify-content-center">
                     <!-- <%if(campground.images.length) {%> -->
-                    <img class="img-fluid" style="height: 28vh; object-fit: cover;" alt="" src="images/CampYelp.png">
+                    <img class="img-fluid" style="height: 30vh; object-fit:contain;" alt="" src="images/CampYelp.png">
                     <!-- <% }else {%>
                     <img class="img-fluid" alt=""
                         src="https://res.cloudinary.com/douqbebwk/image/upload/v1600103881/YelpCamp/lz8jjv2gyynjil7lswf4.png">
@@ -47,41 +47,76 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">YelpCamp </h5>
+                        <h5 class="card-title"> YelpCamp </h5>
                         <p class="card-text">Node.js | Express | MongDB | Bootstrap | HTML | CSS</p>
                         <p class="card-text">
                             This is a full-stack reposive Yelp Clone website deployed on Heroku for users to upload information about their campgrounds and share comments.
                             <!-- <small class="text-muted">Locations</small> -->
                         </p>
-                        <a class="btn btn-primary" href="https://wang-yelp-camp.herokuapp.com/">View</a>
+                        <a class="btn btn-primary btn-sm" href="https://wang-yelp-camp.herokuapp.com/">View Demo</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="card mb-3" >
+        <div class="card mt-5 mb-5" >
             <div class="row">
-                <div class="col-md-4">
-                    <!-- <%if(campground.images.length) {%> -->
-                    <img class="img-fluid" style="height: 28vh; object-fit: cover;" alt="" src="images/todo_react.png">
-                    <!-- <% }else {%>
-                    <img class="img-fluid" alt=""
-                        src="https://res.cloudinary.com/douqbebwk/image/upload/v1600103881/YelpCamp/lz8jjv2gyynjil7lswf4.png">
-                    <% } %> -->
+                <div class="col-md-4 d-flex justify-content-center">  
+                    <img class="img-fluid" style="background-color: darkgray; height: 30vh; object-fit: contain;" alt="" src="images/todo_react.png">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">YelpCamp </h5>
-                        <p class="card-text"> React.js </p>
+                        <h5 class="card-title"> Todo List </h5>
+                        <p class="card-text"> React </p>
                         <p class="card-text">
-                            This is a single web page todolist application which allows users to maintain and update their todos.
-                            <!-- <small class="text-muted">Locations</small> -->
+                            A single web page app using React which allows users to maintain and update their todos. 
                         </p>
-                        <a class="btn btn-primary" href="https://github.com/Zihan2Wang/Projects/tree/main/todolist_react">View Code</a>
+                        <a class="btn btn-primary btn-sm" href="https://github.com/Zihan2Wang/Projects/tree/main/todolist_react">View Code</a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="card mt-5 mb-5" >
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img class="img-fluid" style="background-color:#404040; height: 30vh; object-fit: contain;" alt="" src="images/todo_java.png">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> Java Command Line Todo List </h5>
+                        <p class="card-text"> Java | functional programming </p>
+                        <p class="card-text">
+                            This is a Java command line to-do list application, following Model-View-Controller pattern, that allows users to add, modify, query, and delete their entries with data stored in a local CSV file.
+                        </p>
+                        <a class="btn btn-primary btn-sm" href="https://github.com/Zihan2Wang/Projects/tree/main/Todo_Java">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card mt-5 mb-5" >
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                
+                    <img class="img-fluid" style="height: 30vh; object-fit: contain;" alt="" src="images/checkers.png">
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title"> Checkers </h5>
+                        <p class="card-text"> Python </p>
+                        <p class="card-text">
+                            A fully functional Checkers game which allows a user to play the game with the computer.
+                        </p>
+                        <a class="btn btn-primary btn-sm" href="https://github.com/Zihan2Wang/Projects/tree/main/Checkers">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    
     </main>
     <footer class="footer bg-dark py-3 mt-auto">
         <div class="container">
