@@ -1,112 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zihan Wang | Software Engineer</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zihan Wang | Software Engineer</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+    <link rel="stylesheet" href="../style/app.css" />
+  </head>
 
-  <link rel="stylesheet" href="../style/app.css">
+  <body class="d-flex flex-column vh-100">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="#">ZIHAN WANG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <nav class="nav nav-masthead justify-content-end ml-auto">
+            <div class="navbar-nav text-right">
+              <a class="nav-link" href="../index.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              <a class="nav-link" href="./projects.html">PROJECTS</a>
+              <a class="nav-link" href="./contact.html">CONTACT</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
 
-
-</head>
-
-<body class="d-flex flex-column vh-100">
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand mx-auto" href="#">ZIHAN WANG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <nav class="nav nav-masthead justify-content-end ml-auto">
-          <div class="navbar-nav text-right">
-            <a class="nav-link" href="../index.html">HOME</a>
-            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
-            <a class="nav-link" href="./projects.html">PROJECTS</a>
-            <a class="nav-link" href="./contact.html">CONTACT</a>
+    <main class="container mt-5">
+      <div class="row mb-3">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="about_content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">From a humanist ...</h3>
+            <p class="text-start lh-lg">
+              I completed my Ph.D. in Comparative Literature at Purdue
+              University. As a humanist researcher, I was intereted in how and
+              why medicine-related topics were represented or misrepresented in
+              cultural products, such as literature and movies, and how these
+              (mis)representations shaped the public's understanding about
+              various concepts like illnesses, ability/disability, race, gender,
+              and class. I also worked at Purdue as an instructor of record,
+              teaching Chinese and Chinese literature at various levels.
+            </p>
           </div>
-        </nav>
-      </div>
-    </div>
-  </nav>
-
-  <main class="container mt-5">
-    <div class="row mb-3">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="about_content">
-          <div class="icon d-block fas fa-paper-plane"></div>
-          <h3 class="display-3--title mt-1">From a humanist ...</h3>
-          <p class="text-start lh-lg">
-            I completed my Ph.D. in Comparative Literature at Purdue University. As a humanist researcher, I was
-            intereted in how and why
-            medicine-related topics were represented or misrepresented in cultural products, such as literature and
-            movies, and how these (mis)representations
-            shaped the public's understanding about various concepts like illnesses, ability/disability, race, gender,
-            and class.
-            I also worked at Purdue as an instructor of record, teaching Chinese and Chinese literature at various
-            levels.
-          </p>
+        </div>
+        <div
+          class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+        >
+          <div class="about_pic">
+            <img
+              src="../images/teaching.JPG"
+              alt="marketing illustration"
+              class="img-fluid"
+            />
+          </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
-        <div class="about_pic">
-          <img src="../images/teaching.JPG" alt="marketing illustration" class="img-fluid">
+
+      <div class="row mt-5 mb-5">
+        <div
+          class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start"
+        >
+          <div class="about_pic">
+            <img
+              src="../images/me.jpg"
+              alt="web development illustration"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="about_content">
+            <div class="icon d-block fas fa-code"></div>
+            <h3 class="display-3--title mt-1">To a humanist coder ...</h3>
+            <p class="text-start lh-lg">
+              I did not make my mind to change my career path until I took a
+              course called Digital Humanities, where I learned how technology
+              was used to accelerate research in humanities, a field which
+              traditionally seemed to have nothing to do with technology. Amazed
+              by how technological frameworks and methods made complex analysis
+              and data-mining possible, I wanted to learn more about software
+              development. The completion of a doctoral degree is a process of
+              finding and solving problems, and I would like to keep searching
+              and providing solutions in a fast-changing technological world,
+              which is full of challenging and interesting tasks.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <div class="row mt-5 mb-5">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
-        <div class="about_pic">
-          <img src="../images/me.jpg" alt="web development illustration" class="img-fluid">
-        </div>
+    <footer class="footer bg-dark py-3 mt-auto">
+      <div class="container">
+        <span class="text-muted">&copy; Zihan Wang 2021</span>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="about_content">
-          <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">To a humanist coder ...</h3>
-          <p class="text-start lh-lg">
-            I did not make my mind to change my career path until I took a course called Digital Humanities,
-            where I learned how technology were used to accelerate research in humanities,
-            a field which traditionally seemed to have nothing to do with technology. Amazed by how technological
-            frameworks and
-            methods made complex analysis and data-mining possible, I wanted to learn more about software development.
-            The completion of a doctoral degree is a process of finding and solving problems, and I would like to
-            keep searching and providing solutions in a fast-changing technological world, which is full of challenging
-            and interesting
-            tasks.
+    </footer>
 
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-  </main>
-
-
-  <footer class="footer bg-dark py-3 mt-auto">
-    <div class="container">
-      <span class="text-muted">&copy; Zihan Wang 2021</span>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-    crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
