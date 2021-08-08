@@ -41,4 +41,5 @@ body {
 .btn-secondary:hover {
   color: #333;
   text-shadow: none;
+  background-color: white;
 }
